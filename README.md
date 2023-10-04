@@ -2,9 +2,11 @@
 start VPC first
 
 Outputs:
+
 subnet_id  = "subnet-xxxxxxxxxx"
+
 vpcNexusSG = "sg-xxxxxxxxxxxxxx"
 
-add values from VPC to nexusReg/main.tf
+add values from VPC outputs to nexusReg/main.tf
 
 start nexusReg
